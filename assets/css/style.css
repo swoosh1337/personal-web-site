@@ -13,12 +13,13 @@ body {
   color: #fff;
   position: relative;
   background: transparent;
+  background-image: radial-gradient(140% 107% at 50% 10%, #000314 37.41%, #63e 69.27%, #fff 100%) !important;
 }
 
 body::before {
   content: "";
   position: fixed;
-  background: #010e1b;
+  background-image: radial-gradient(140% 107% at 50% 10%, #000314 37.41%, #63e 69.27%, #fff 100%) !important;
   background-size: cover;
   left: 0;
   right: 0;
@@ -104,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(206, 13, 13, 0.1);
   color: #fff;
   line-height: 1;
   margin-right: 8px;
@@ -114,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a:hover {
-  background: #1c7d32;
+  background: #b5dd05;
 }
 
 @media (max-width: 992px) {
@@ -132,6 +133,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #d3d3d3;
   }
 }
 
@@ -182,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #12d640;
+  color: #dfe917;
   text-decoration: none;
 }
 
@@ -276,7 +278,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: #09203a;
+  background: #030507;
 }
 
 #header.header-top .social-links, #header.header-top h2 {
@@ -891,10 +893,11 @@ section .container {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444444;
+  color: #4e4186;
   padding: 20px;
   width: 100%;
-  background: #09203a;
+  background: #342674;
+  border-radius: 10px;
 }
 
 .contact .info-box i.bx {
@@ -904,11 +907,12 @@ section .container {
   padding: 14px;
   float: left;
   background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #28a745;
+  color: #e4dc09;
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
@@ -936,7 +940,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #12d640;
+  color: #c9d612;
 }
 
 .contact .php-email-form {
@@ -964,7 +968,7 @@ section .container {
 .contact .php-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background: #1c7d32;
+  background: #ede105;
   text-align: center;
   padding: 15px;
   font-weight: 600;
